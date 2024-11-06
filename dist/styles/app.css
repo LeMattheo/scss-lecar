@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.background {
+  background: url("../assets/background.jpg");
+  background-size: cover;
+  height: 1945px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+header .login {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #FBD784;
+}
+header .login a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.container {
+  width: 700px;
+  margin: 150px auto;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.top .ligne {
+  width: 72px;
+  height: 1px;
+  background-color: #FBD784;
+}
+.top span {
+  text-transform: uppercase;
+  color: #FBD784;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 8rem;
+  color: white;
+}
+
+.bg-bottom {
+  background-color: #0A1C25;
+}
+
+.get-started {
+  width: 70%;
+  margin: -50px auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.get-started .number {
+  position: absolute;
+  top: -110px;
+  left: -135px;
+}
+.get-started h2 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.get-started p {
+  color: white;
+  font-size: 2rem;
+}
+.get-started .cta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.get-started .cta a {
+  text-decoration: none;
+  color: #FBD784;
+}
+.get-started img {
+  transform: scale(0.5);
+}
+.get-started h3 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}/*# sourceMappingURL=app.css.map */
