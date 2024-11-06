@@ -1,0 +1,29 @@
+.background{
+    background : url('../assets/background.jpg');
+    background-size:cover;
+    height: 1945px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    justify-content: space-between;
+    font-family: $primaryFont;
+    color: $primaryColor;
+
+    .login{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: $secondaryColor;
+    }
+
+    .login a{
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,58 @@
+.bg-bottom{
+    background-color: #0A1C25;
+}
+
+
+.get-started{
+    width: 70%;
+    margin: -50px auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    
+    .number{
+        position: absolute;
+        top: -110px;
+        left: -135px;
+    }
+    
+
+    h2{
+        color: white;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    p{
+        color: white;
+        font-size: 2rem;
+    }
+
+    .cta{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        text-transform: uppercase;
+        margin-top: 50px;
+
+        a{
+            text-decoration: none;
+            color: $secondaryColor;
+        }
+    }
+
+    img{
+        transform: scale(0.5);
+    }
+
+    h3{
+        color: white;
+        font-size: 3rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+}
+

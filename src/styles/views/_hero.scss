@@ -1,0 +1,26 @@
+.container{
+    width: 700px;
+    margin: 150px auto;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .ligne{
+        width: 72px;
+        height: 1px;
+        background-color: $secondaryColor;
+    }
+
+    span{
+        text-transform: uppercase;
+        color: $secondaryColor;
+        font-size: 1.5rem;
+    }
+}
+
+h1{
+    font-size: 8rem;
+    color: white;
+}

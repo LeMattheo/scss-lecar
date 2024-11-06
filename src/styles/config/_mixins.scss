@@ -1,0 +1,4 @@
+@mixin borderRadius ($pixels : 10px){
+    border-top-left-radius: $pixels;
+    border-top-right-radius: $pixels;
+}
